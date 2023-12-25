@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Clipboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url('./assets/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      @media (max-width: 576px) {
+        body {
+          background-image: url('./assets/bg-header-mobile.png');
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="pt-40">
+      <!-- CONTAINER -->
+      <div
+        class="flex flex-col items-center gap-11 text-center max-w-[85%] mx-auto"
+      >
+        <img class="mb-5" src="./assets/logo.svg" alt="" />
+        <h2 class="title">A history of everything you copy</h2>
+        <h2 class="text-2xl text-grayishBlue max-w-4xl">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </h2>
+
+        <!-- Download buttons -->
+        <div
+          class="flex flex-col items-center gap-5 w-full md:flex-row md:justify-center"
+        >
+          <button
+            class="w-full py-4 shadow-md bg-strongCyan text-white font-medium text-xl rounded-full md:w-auto md:px-10 duration-200 hover:opacity-80"
+          >
+            Download for iOS
+          </button>
+          <button
+            class="w-full py-4 shadow-md bg-lightBlue text-white font-medium text-xl rounded-full md:w-auto md:px-10 duration-200 hover:opacity-80"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- COMPUTER SECTION -->
+    <section class="mt-28">
+      <div class="space-y-24 max-w-[85%] mx-auto">
+        <div class="space-y-8 text-center">
+          <h2 class="title">Keep track of your snippets</h2>
+          <h2 class="text-xl text-grayishBlue max-w-4xl mx-auto">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </h2>
+        </div>
+
+        <div class="space-y-16 text-center md:flex md:gap-24">
+          <div class="flex justify-center items-center">
+            <img
+              class="md:max-w-full"
+              src="./assets/image-computer.png"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-col gap-10 md:text-left">
+            <div class="space-y-3">
+              <h3 class="text-2xl font-bold">Quick Search</h3>
+              <p class="text-xl text-grayishBlue">
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <h3 class="text-2xl font-bold">iCloud Sync</h3>
+              <p class="text-xl text-grayishBlue">
+                Instantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <div class="space-y-3">
+              <h3 class="text-2xl font-bold">Completely History</h3>
+              <p class="text-xl text-grayishBlue">
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVICE SECTION -->
+    <section class="mt-32">
+      <div class="space-y-24 max-w-[85%] mx-auto">
+        <div class="space-y-8 text-center max-w-4xl mx-auto">
+          <h2 class="title">Access Clipboard Anywhere</h2>
+          <h2 class="text-xl text-grayishBlue">
+            Whether you're on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </h2>
+        </div>
+
+        <div class="space-y-16 text-center">
+          <img class="mx-auto" src="./assets/image-devices.png" alt="" />
+
+          <div class="space-y-8 text-center">
+            <h2 class="title">Supercharge your workflow</h2>
+            <h2 class="text-xl text-grayishBlue">
+              We've got the tools to boost your productivity.
+            </h2>
+          </div>
+
+          <div class="flex flex-col gap-10 md:flex-row">
+            <div class="flex flex-col items-center gap-5">
+              <img src="./assets/icon-blacklist.svg" alt="" />
+              <h3 class="text-2xl font-bold">Create Blacklists</h3>
+              <p class="text-md text-grayishBlue">
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </p>
+            </div>
+            <div class="flex flex-col items-center gap-5">
+              <img src="./assets/icon-text.svg" alt="" />
+
+              <h3 class="text-2xl font-bold">Plain Text Snippets</h3>
+              <p class="text-md text-grayishBlue">
+                Remove unwanted formatting from copied text for a consistent
+                look.
+              </p>
+            </div>
+            <div class="flex flex-col items-center gap-5">
+              <img src="./assets/icon-preview.svg" alt="" />
+              <h3 class="text-2xl font-bold">Sneak Preview</h3>
+              <p class="text-md text-grayishBlue">
+                Quick preview of all snippets on your Clipboard for easy access.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOGS -->
+    <section
+      class="my-40 flex flex-col items-center gap-20 md:flex-row md:gap-2 md:justify-center"
+    >
+      <img src="./assets/logo-google.png" alt="" />
+      <img src="./assets/logo-ibm.png" alt="" />
+      <img src="./assets/logo-microsoft.png" alt="" />
+      <img src="./assets/logo-hp.png" alt="" />
+      <img src="./assets/logo-vector-graphics.png" alt="" />
+    </section>
+
+    <!-- DOWNLOAD SECTION -->
+    <section class="">
+      <!-- CONTAINER -->
+      <div
+        class="flex flex-col items-center gap-11 text-center max-w-[85%] mx-auto"
+      >
+        <h2 class="text-4xl font-bold text-darkGrayishBlue">
+          Clipboard for iOS and MacOS
+        </h2>
+        <p class="text-xl text-grayishBlue leading-10 max-w-4xl">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you're ready to start adding to your clipboard.
+        </p>
+
+        <!-- Download buttons -->
+        <div
+          class="flex flex-col items-center gap-5 w-full md:flex-row md:justify-center"
+        >
+          <button
+            class="w-full py-4 shadow-md bg-strongCyan text-white font-medium text-xl rounded-full l md:w-auto md:px-10"
+          >
+            Download for iOS
+          </button>
+          <button
+            class="w-full py-4 shadow-md bg-lightBlue text-white font-medium text-xl rounded-full l md:w-auto md:px-10"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-50 mt-20">
+      <div
+        class="flex flex-col items-center py-10 gap-10 md:flex-row md:justify-between md:mx-auto md:max-w-[1100px] md:w-[90%] md:gap-20"
+      >
+        <img class="w-16" src="./assets/logo.svg" alt="" />
+        <nav class="md:flex-1">
+          <ol
+            class="flex flex-col justify-center text-grayishBlue text-center gap-3 md:gap-10 md:flex-wrap md:h-24 md:justify-between md:text-left md:content-between"
+          >
+            <li>FAQs</li>
+            <li>Contact Us</li>
+            <li>Privacy Policy</li>
+            <li>Press Kit</li>
+            <li>Install Guide</li>
+          </ol>
+        </nav>
+        <div class="flex justify-center gap-8">
+          <img src="./assets/icon-facebook.svg" alt="" />
+          <img src="./assets/icon-twitter.svg" alt="" />
+          <img src="./assets/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
